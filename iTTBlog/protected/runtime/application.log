@@ -1,0 +1,45 @@
+
+2013/03/20 01:48:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in D:\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\yii\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 D:\yii\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 D:\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Articles))
+#7 D:\iTTBlog\protected\models\Articles.php(25): CActiveRecord::model('Articles')
+#8 D:\iTTBlog\protected\controllers\SiteController.php(180): Articles::model()
+#9 D:\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#14 D:\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/index')
+#15 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\iTTBlog\index.php(21): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+---
+2013/03/25 06:03:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'ittblog'' in D:\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\yii\framework\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 D:\yii\framework\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 D:\yii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Articles))
+#7 D:\iTTBlog\protected\models\Articles.php(25): CActiveRecord::model('Articles')
+#8 D:\iTTBlog\protected\controllers\SiteController.php(180): Articles::model()
+#9 D:\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#14 D:\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/index')
+#15 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\iTTBlog\index.php(21): CApplication->run()
+#17 {main}
+REQUEST_URI=/
+---

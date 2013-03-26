@@ -1,0 +1,158 @@
+#loginForm_div {
+    padding: 5px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border: 3px solid #f7953e;
+    background:white url('../images/bg/long.gif');
+}
+
+#loginForm {
+    font: 25px;
+    color: gray;
+    width: 350px;
+    height: 300px;
+    border: 1px solid #f7953e;
+
+}
+
+#loginForm span {
+    display: block;
+    margin-top: 5px;
+}
+
+/*****************************/
+
+#regForm_div {
+    /*position: relative;*/
+    padding: 5px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    border: 3px solid #f7953e;
+    background: white url('../images/bg/long.gif');
+}
+
+#regForm {
+    font: 25px;
+    color: gray;
+    width: 350px;
+    height: 450px;
+    border: 1px solid #f7953e;
+}
+
+#regForm span {
+    display: block;
+    margin-top: 10px;
+}
+
+/*****************************/
+#contact {
+    padding: 5px;
+    margin-top: 5px;
+    width: 780px;
+    border: 3px solid #f7953e;
+    background:white;
+}
+
+#contact div{
+   margin-top: 5px;
+}
+#contact_desc {
+    padding: 10px;
+    border: 1px solid #f7953e;
+}
+
+#contactForm_div {
+    width: 770px;
+    padding: 5px;
+    border: 1px solid #f7953e;
+    background:white;
+}
+
+#contactForm {
+    padding: 5px;
+}
+
+#contactForm span {
+    display: block;
+    margin-top: 5px;
+}
+
+#c_email input, #c_subject input {
+    width: 400px;
+}
+#email_content-editor{
+   width: 790;
+}
+
+#email_content-editor span{
+   line-height: 30px;
+}
+#email_content-editor span a span{
+    margin-top: 1px;
+}
+/*****************************/
+#about_outer {
+    padding: 5px;
+    margin-top: 5px;
+    width: 780px;
+    min-height: 400px;
+    z-index: 5100;
+    border: 3px solid #f7953e;
+    background:white;
+}
+
+#about_inner {
+    padding: 5px;
+    border: 1px solid #f7953e;
+}
+
+#about_inner span {
+    display: block;
+}
+
+/*****************************/
+/*****************************/
+#user_edit {
+
+    width: 500px;
+    padding: 5px;
+    color: gray;
+    margin-top: 5px;
+    border: 3px solid #f7953e;
+    background:white url('../images/bg/long.gif');
+}
+
+#user_form span {
+     display: block;
+     margin-top: 5px;
+ }
+
+/*****************************/
+/*****************************/
+.tmg {
+    width: 100%;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    background: #f7953e;
+
+}
+
+.emg {
+    width: 100%;
+    height: 40px;
+    color: red;
+    line-height: 40px;
+    text-align: center;
+}
+/*******************************/
+h5{
+    color: green;
+    display: inline;
+    text-align: left;
+    font-size: 12px;
+    margin: 1px;
+}

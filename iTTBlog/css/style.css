@@ -1,0 +1,89 @@
+#leader {
+    top: 0px;
+    width: 100%;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    position: fixed;
+    background: black;
+}
+#myslidemenu{
+    background: black;
+}
+
+/******************************/
+
+#banner{
+    width: 1010px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 125px;
+    background: black url('../images/bg/banner.gif') no-repeat;
+}
+/******************************/
+#content {
+    width: 1020px;
+    min-height: 600px;
+    text-align: right;
+    background: black;
+}
+
+#content div {
+    display: inline-block;
+    margin-left: 0;
+}
+
+#left {
+    width: 200px;
+    height: auto;
+    cursor: move;
+    position: absolute;
+    margin-top: 5px;
+    padding-left: 1px;
+    margin-left: 20px;
+}
+
+#left div span {
+    padding: 1px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/******************************/
+#input-text {
+    width: 110px;
+}
+
+#search {
+    margin-left: 2px;
+    display: inline;
+}
+
+#rss {
+    height: 200px;
+    background: white;
+}
+
+#hot{
+    color: blue;
+   background: white;
+}
+/******************************/
+#footer {
+    color: #f7953e;
+    height: 35px;
+    width: 800px;
+    padding: 5px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+/***********************/
+#currentTime {
+    color: white;
+    height: 70px;
+    width: 180px;
+    z-index: 5001;
+    background: black url("") no-repeat;
+}

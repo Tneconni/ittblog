@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color:black;
+}
+
+ul li {
+    list-style: none;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4{
+    display: inline;
+}
+/**********************************************/
+
+.formButton {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+    background: url('../images/btn/11.jpg') no-repeat;
+}
+
+.formButton:hover {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+    background: url('../images/btn/11_1.jpg') no-repeat;
+}
+
+.btn{
+    width: 60px;
+    height: 30px;
+    background: url('../images/btn/16.jpg') no-repeat;
+}
+
+.btn:hover{
+    width: 60px;
+    height: 30px;
+    background: url('../images/btn/16_1.jpg') no-repeat;
+}
